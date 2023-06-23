@@ -1,5 +1,7 @@
 import './App.css'
 import Hero from './Components/Hero'
+import StackAndTools from './Components/StackAndTools'
+import ProjectCards from './Components/ProjectCards'
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <h1>Hello World</h1>
       <Hero/>
+      <StackAndTools/>
+      <ProjectCards/>
     </>
   )
 }
