@@ -35,16 +35,20 @@ body {
 }
 
 h1 {
-  color: var(--clr-gk-accent-pink);
+  color: var(--clr-white);
 }
-
+h1, 
 h2 {
-  /* center h2 */
   text-align: center;
 }
 
 footer {
   background-color: var(--clr-grey-dark);
+}
+
+.container {
+  max-width: 375px;
+  margin: auto;
 }
 
 /* UTILITY CLASSES */
