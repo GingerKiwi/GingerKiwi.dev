@@ -51,7 +51,7 @@ const ProjectCardsHardCoded = () => {
                     <p>Project description</p>
                     <p>Project stack</p>
                     <p>Project tools</p>
-                    <p><a href="https://gingerkiwi.dev">Project link</a> </p>
+                    <p><a href="https://main--gingerkiwi-dev-2023-06.netlify.app/">Project link</a> </p>
                     <p><a href="https://github.com/GingerKiwi/GingerKiwi.dev">GitHub</a></p>
             </article>
         </section>
