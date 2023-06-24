@@ -49,6 +49,14 @@ footer {
 .container {
   max-width: 375px;
   margin: auto;
+  padding: 0 4rem;
+}
+
+.section--socials {
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  padding: 2rem 0;
 }
 
 /* UTILITY CLASSES */
@@ -64,4 +72,16 @@ footer {
 
 .text--uppercase {
   text-transform: uppercase;
+}
+
+.section--padding-top {
+  padding-top: 2rem;
+}
+
+.padding-top-1rem {
+  padding-top: 1rem;
+}
+
+.text--align-center {
+  text-align: center;
 }
