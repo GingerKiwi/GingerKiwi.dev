@@ -33,7 +33,7 @@ export default [
         tools: ["vscode", "git", "github"],
         github: "https://github.com/GingerKiwi/GingerKiwi.dev",
         link:"https://gingerkiwi.dev",
-        image: "/assets/",
+        image: "/assets/XX",
     },
     {
         projectname: "Conquering Responsive Layouts",
