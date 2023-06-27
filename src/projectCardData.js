@@ -13,8 +13,8 @@ export default [
         problem: "problem",
         stack: ["html", "css", "javascript", "", ""],
         tools: ["vscode", "git", "github"],
-        github: "https://github.com/GingerKiwi/alice-in-wonderland-project",
-        link:"https://alicegame.app",
+        github: "https://github.com/The-Alice-In-Wonderland-Project",
+        link:"https://the-alice-in-wonderland-project.github.io/aliceproject-dev/",
         image: "/assets/yarnhelp.png",
     },
     {

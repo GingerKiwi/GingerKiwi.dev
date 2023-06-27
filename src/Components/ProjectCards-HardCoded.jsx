@@ -21,8 +21,8 @@ const ProjectCardsHardCoded = () => {
                     <p>Project description</p>
                     <p>Project stack</p>
                     <p>Project tools</p>
-                    <p><a href="https://gingerkiwi.blog/blog/2023-04-03-whats-happening-with-the-alice-in-wonderland-project/">Project Blog Post</a> </p>
-                    <p><a href="https://github.com/GingerKiwi/alice-game">GitHub</a></p>
+                    <p><a href="https://the-alice-in-wonderland-project.github.io/aliceproject-dev/">Project Link</a> </p>
+                    <p><a href="https://github.com/The-Alice-In-Wonderland-Project">GitHub</a></p>
             </article>
             <article className="padding-top-1rem">
                 <h3>Ginger Kiwi Blog</h3>
