@@ -59,6 +59,11 @@ footer {
   padding: 2rem 0;
 }
 
+.section--building-in-public {
+  color: var(--clr-gk-accent-pink);
+  text-align: center;
+}
+
 /* UTILITY CLASSES */
 
 .text--align-center {
