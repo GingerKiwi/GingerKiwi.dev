@@ -75,6 +75,10 @@ footer {
   text-decoration: underline 2px var(--clr-gk-accent-orange);
 }
 
+.text--pink {
+  color: var(--clr-gk-accent-pink);
+}
+
 .text--uppercase {
   text-transform: uppercase;
 }
@@ -89,4 +93,8 @@ footer {
 
 .text--align-center {
   text-align: center;
+}
+
+.fs--1-5rem {
+  font-size: 1.5rem;
 }
