@@ -60,7 +60,7 @@ const ProjectCardsHardCoded = () => {
                     <p><a href="https://github.com/GingerKiwi/conquering-responsive-layouts">GitHub</a></p>
             </article>
             <article className="padding-top-1rem">
-            <p>Image here</p>
+            
                     <img src={gkdev} alt="screenshot ADD ALT IN DATA.JS FILE!!" />
                 <h3>GingerKiwi.dev | Portfolio Site</h3>
                     
