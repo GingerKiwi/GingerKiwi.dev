@@ -1,7 +1,8 @@
 import alice from '../assets/Alice-Screenshot.png?url'
 import yarnhelpimg from '../assets/HowMuchYarn3.png?url'
 import gkblog from '../assets/GK-Blog-Screenshot.png?url'
-import gkdev from '../assets/GK-Dev-Screenshot-Figma.png?url'
+import gkdev from '../assets/ibm.svg?url'
+// import gkdev from '../assets/GK-Dev-Screenshot-Figma.png?url'
 import crl from '../assets/CRL-Screenshot.png?url'
 
 const ProjectCardsHardCoded = () => {
