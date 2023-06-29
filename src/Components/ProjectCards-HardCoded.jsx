@@ -1,8 +1,8 @@
-import alice from '../assets/Alice-Screenshot.png'
-import yarnhelpimg from '../assets/HowMuchYarn3.png'
-import gkblog from '../assets/GK-Blog-Screenshot.png'
-import gkdev from '../assets/GK-Dev-Screenshot-Figma.png'
-import crl from '../assets/CRL-Screenshot.png'
+import alice from '../assets/Alice-Screenshot.png?url'
+import yarnhelpimg from '../assets/HowMuchYarn3.png?url'
+import gkblog from '../assets/GK-Blog-Screenshot.png?url'
+import gkdev from '../assets/GK-Dev-Screenshot-Figma.png?url'
+import crl from '../assets/CRL-Screenshot.png?url'
 
 const ProjectCardsHardCoded = () => {
     return (
