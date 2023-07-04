@@ -20,8 +20,13 @@ function App() {
             image={item.image}
             name={item.name}
             about={item.about}
+            stack={item.stack}
+            tools={item.tools}
             link={item.link}
             github={item.github}
+            alt={item.alt}
+            problem={item.problem}
+            
         />
     )
 })  
