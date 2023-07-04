@@ -1,8 +1,8 @@
 export default function Projects(props) {
     return (
         <div>
-            {props.name && <h3>Setup: {props.about}</h3>}
-            <p>Project: {props.about}</p>
+            {props.name && <h3>{props.name}</h3>}
+            <p>About: {props.about}</p>
             <hr />
         </div>
     )

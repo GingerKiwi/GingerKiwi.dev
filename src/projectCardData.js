@@ -1,6 +1,6 @@
 export default [
     {
-        projectname: "Yarn Help! (Version 3.0)",
+        projectName: "Yarn Help! (Version 3.0)",
         problem: "Every ball of yarn has a different length, and there are with 8+ different standard thicknesses (“weights”). There are over 250,000 different yarns. Crochet uses 25% more yarn than knitting.How many balls of X yarn does a person have to buy to make Y project if they are knitting or if they are crocheting?",
         stack: ["html", "css", "javascript", "Ravely.com API"],
         tools: ["vscode", "git", "github", "notion", "obsidian"],
@@ -9,7 +9,7 @@ export default [
         image: "/assets/yarnhelp.png",
     },
     {
-        projectname: "The Alice in Wonderland Open Source Project",
+        projectName: "The Alice in Wonderland Open Source Project",
         problem: "problem",
         stack: ["html", "css", "javascript", "react"],
         tools: ["vscode", "git", "github", "vercel", "github pages", "notion"],
@@ -18,7 +18,7 @@ export default [
         image: "/assets/yarnhelp.png",
     },
     {
-        projectname: "Ginger Kiwi Blog: JAMStack",
+        projectName: "Ginger Kiwi Blog: JAMStack",
         problem: "problem",
         stack: ["HTML", "CSS", "javascript", "Prism.js", "11ty"],
         tools: ["vscode", "git", "github"],
@@ -27,7 +27,7 @@ export default [
         image: "./assets/GK-Blog-Screenshot.png",
     },
     {
-        projectname: "Ginger Kiwi Portfolio (this site)",
+        projectName: "Ginger Kiwi Portfolio (this site)",
         problem: "problem",
         stack: ["html", "css", "javascript", "", ""],
         tools: ["vscode", "git", "github"],
@@ -36,7 +36,7 @@ export default [
         image: "/assets/XX",
     },
     {
-        projectname: "Conquering Responsive Layouts",
+        projectName: "Conquering Responsive Layouts",
         problem: "problem",
         stack: ["HTML", "CSS", "javascript", "Prism.js"],
         tools: ["vscode", "git", "github"],
