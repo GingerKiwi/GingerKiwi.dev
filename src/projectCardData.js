@@ -7,6 +7,7 @@ export default [
         github: "https://github.com/GingerKiwi/yarnhelp3",
         link:"https://yarnhelp.app",
         image: "/assets/yarnhelp.png",
+        alt: "alt text here YarnHelp!"
     },
     {
         projectName: "The Alice in Wonderland Open Source Project",
@@ -16,6 +17,7 @@ export default [
         github: "https://github.com/The-Alice-In-Wonderland-Project",
         link:"https://the-alice-in-wonderland-project.github.io/aliceproject-dev/",
         image: "/assets/yarnhelp.png",
+        alt: "alt text here Alice"
     },
     {
         projectName: "Ginger Kiwi Blog: JAMStack",
@@ -25,6 +27,7 @@ export default [
         github: "https://github.com/GingerKiwi/gingerkiwi-blog-2023",
         link:"https://gingerkiwi.blog",
         image: "./assets/GK-Blog-Screenshot.png",
+        alt: "alt text here GK Blog"
     },
     {
         projectName: "Ginger Kiwi Portfolio (this site)",
@@ -34,6 +37,7 @@ export default [
         github: "https://github.com/GingerKiwi/GingerKiwi.dev",
         link:"https://gingerkiwi.dev",
         image: "/assets/XX",
+        alt: "alt text here GK.dev"
     },
     {
         projectName: "Conquering Responsive Layouts",
@@ -43,7 +47,8 @@ export default [
         github: "https://github.com/GingerKiwi/conquering-responsive-layouts",
         link:"https://responsive-layouts-21-day-challenge.netlify.app/",
         image: "/assets/yarnhelp.png",
-    },
+        alt: "alt text here Responsive Layouts"
+    }
 ]
 
 // template:

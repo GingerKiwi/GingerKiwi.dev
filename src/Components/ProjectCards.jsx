@@ -9,9 +9,12 @@
 export default function Card(props) {
     return (
         <section className="section--projects">
-            {/* <img src={`../images/${props.img}`} className="card--image" /> */}
+            <article className="card">
+            <img src={`../assets/${props.image}`} alt="{props.alt}"className="card--image" />
             <h3>{props.name}</h3>
             <p>{props.about}</p>
+            <a href="{props.link}">View Site</a><br></br>
+            <a href="{props.github">GitHub</a>
             {/* <div className="card--stats">
                 <img src="../images/star.png" className="card--star" />
                 <span>{props.rating}</span>
@@ -20,6 +23,7 @@ export default function Card(props) {
             </div>
             <p>{props.title}</p>
             <p><span className="bold">From ${props.price}</span> / person</p> */}
+        </article>
         </section>
     )
 }

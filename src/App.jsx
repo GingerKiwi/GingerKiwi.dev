@@ -11,25 +11,17 @@ import data from './data.js'
 // import Projects from './Components/testProjectCards'
 import Card from './Components/ProjectCards'
 
-// function App() {
-  
-//   const projectElements = dataTesting.map(project => {
-//       return <Projects name={project.name} about={project.about} />
-//   })
-//   return (
-//       <div>
-//           {projectElements}
-//       </div>
-//   )
-// }
 
 function App() {
 
   const cards = data.map(item => {
     return (
-        <Card 
+        <Card
+            image={item.image}
             name={item.name}
             about={item.about}
+            link={item.link}
+            github={item.github}
         />
     )
 })  
