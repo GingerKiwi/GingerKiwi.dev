@@ -66,6 +66,12 @@ ul {
   padding: 2rem 0;
 }
 
+.div--social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 .section--building-in-public {
   color: var(--clr-gk-accent-pink);
   text-align: center;
