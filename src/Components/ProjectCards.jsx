@@ -2,7 +2,7 @@ export default function Card(props) {
     return (
         <section className="section--projects">
             <article className="card">
-            <img src={`../assets/${props.image}`} alt="{props.alt}" className="card--image" />
+            <img src={`../assets/Project-Screenshots/${props.image}`} alt="{props.alt}" className="card--image" />
             <h3>{props.name}</h3>
             <p>{props.about}</p>
             <p className="text--uppercase">Stack: {props.stack}</p>
