@@ -109,3 +109,8 @@ ul {
 .fs--1-5rem {
   font-size: 1.5rem;
 }
+
+.temp--padding-top-bottom-2rem {
+  padding: 2rem 0;
+  /* This is a temporary class to help visualize things while working on the functionality. */
+}
