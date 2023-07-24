@@ -7,7 +7,7 @@ export default [
         tools: "vscode, git, github, notion, obsidian",
         github: "https://github.com/GingerKiwi/yarnhelp3",
         link:"https://yarnhelp.app",
-        image: "HowMuchYarn3.png", 
+        image: "YarnHelp-Screenshot.png", 
         alt: "alt text here YarnHelp!"
     },
     {
@@ -50,6 +50,28 @@ export default [
         github: "https://github.com/GingerKiwi/conquering-responsive-layouts",
         link:"https://responsive-layouts-21-day-challenge.netlify.app/",
         image: "CRL-Screenshot.png" ,
+        alt: "alt text here CRL"
+    },
+    {
+        name: "Technical Reviewer: C# Design Patterns",
+        about: "Provided a technical review for the frist two chapters.",
+        problem: "The author, Bruce Van Horne II, and the publisher needed a technical reviewer with a new developer perspective for Real World Implementation of C# Design Patterns.",
+        stack: "C#, .NET",
+        tools: "Visual Studio, MS Word",
+        github: "https://github.com/GingerKiwi/conquering-responsive-layouts",
+        link:"https://responsive-layouts-21-day-challenge.netlify.app/",
+        image: "c-sharp-design-patterns-cover.png" ,
+        alt: "alt text here CRL"
+    },
+    {
+        name: "UX/UI Design: Pūhoro STEM Academy Student and Teacher Dashboards",
+        about: "Major project from UX Design grad course.",
+        problem: "Pūhoro STEM Academy needed to make their onsite bilingual te reo Māori/English activities accessible to classes all over New Zealand. Our group of five chose one activity to design a student and teacher dashboard for. The project required knowledge of Māori culture and language. We worked remotely, spread over three countries, and three time zones during the pandemic. During the project time group members experienced two natural disasters, one member's toddler being admitted to hospital, another member having a major injury, and someone else moving internationally back to New Zealand and being in long-term quaratine. I was the lead on the visualization part of the project and taught myself and another group member Adobe Xd. We finished on time and earned an A- grade.",
+        stack: "Adobe Xd",
+        tools: "Asana, Google Docs, MS Teams",
+        github: "https://github.com/GingerKiwi/Puhoro-STEM-academy-uiux-design",
+        link:"https://responsive-layouts-21-day-challenge.netlify.app/",
+        image: "UX-2021-Teacher-Dashboard-Screenshot.png" ,
         alt: "alt text here CRL"
     }
 ]
