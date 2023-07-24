@@ -8,8 +8,8 @@ const ContactForm = () => {
             <p>* denotes required fields.</p>
             
             <form id="contact-form" action="" method="">
-                <div class="container">
-                    <div class="item">
+                <div className="container">
+                    <div className="item">
                     
                         <label htmlFor="name">Name *</label>
                         <p id="error1" className="error"></p>
