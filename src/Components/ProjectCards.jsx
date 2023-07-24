@@ -11,8 +11,8 @@ const ProjectCards = () => {
                 <p>{item.about}</p>
                 <p className="text--uppercase">Stack: {item.stack}</p>
                 <p className="text--uppercase">Tools: {item.tools}</p>
-                <a href={item.link} className="text--border-bottom-orange">View Site</a><br></br>
-                <a href={item.github} className="text--border-bottom-orange">GitHub</a>
+                <a href={item.link} className="text--border-bottom-orange" target="_blank" rel="noreferrer">View Site</a><br></br>
+                <a href={item.github} className="text--border-bottom-orange" target="_blank" rel="noreferrer">GitHub</a>
                 <details><summary>Problem Solved:</summary><p>{item.problem}</p> </details>
             </article>
         </section>
