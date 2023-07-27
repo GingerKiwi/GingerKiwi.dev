@@ -120,3 +120,21 @@ ul {
   padding: 2rem 0;
   /* This is a temporary class to help visualize things while working on the functionality. */
 }
+
+@media (min-width: 600px) {
+  .container {
+    min-width: 600px;
+  }
+
+  .section--projects{
+    display: flex;
+    justify-content: space-between;
+  }
+  .section--projects img {
+    max-width: 25vw;
+  }
+
+  header img {
+    max-width: 25vh;
+  }
+}

@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -65,5 +66,12 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* copilot: write a media query for screens larger than 600px wide */
+@media (min-width: 600px) {
+  body {
+    min-width: 600px;
   }
 }
