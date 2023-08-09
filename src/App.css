@@ -53,7 +53,7 @@ ul {
   font-size: var(--fs-small);
 }
 
-.container {
+.app-container {
   max-width: 375px;
   margin: auto;
   padding: 0 4rem;
@@ -77,7 +77,7 @@ ul {
   text-align: center;
 }
 
-.card {
+.project-card {
   padding-top: 2rem;
 }
 
@@ -115,6 +115,43 @@ ul {
 .fs--1-5rem {
   font-size: 1.5rem;
 }
+
+@container (min-width: 60ch) {
+  container-type: inline-size;
+  article {
+    padding: 2rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    max-width: 768px;
+    position: relative;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    position: relative;
+  }
+  .img-hero {
+    max-width: auto;
+    max-height: 14rem;
+  }
+
+  .header-text {
+    margin-left: 2rem;
+  }
+  .header-text p, .header-text h1 {
+    /* max-width: 50%; */
+    justify-content: left;
+    text-align: left;
+  }
+}
+  
+
 
 /* .temp--padding-top-bottom-2rem {
   padding: 2rem 0;

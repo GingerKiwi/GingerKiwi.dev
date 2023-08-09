@@ -5,6 +5,7 @@ const ProjectCards = () => {
       <div>
           {data.map((item, index) => (
             <section key={index} className="section--projects">
+              <div className="container project-section">
             <article className="card temp--padding-top-bottom-2rem">
                 <img src={`../assets/Project-Screenshots/${item.image}`} alt="{item.alt}" className="card--image" />
                 <h3 className="temp--padding-top-bottom-2rem text--uppercase">{item.name}</h3>
@@ -15,6 +16,7 @@ const ProjectCards = () => {
                 <a href={item.github} className="text--border-bottom-orange" target="_blank" rel="noreferrer">GitHub</a>
                 <details><summary>Problem Solved:</summary><p>{item.problem}</p> </details>
             </article>
+            </div>
         </section>
           ))}
       </div>

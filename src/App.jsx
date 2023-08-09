@@ -37,7 +37,7 @@ import BuildingInPublic from './Components/BuildingInPublic'
 
 function App() {
   return (
-      <div className="container">
+      <div className="app-container">
         <BuildingInPublic/>
         <Socials/>
         <Hero/>
