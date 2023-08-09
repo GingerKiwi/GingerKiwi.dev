@@ -6,13 +6,13 @@ import StackAndTools from './Components/StackAndTools'
 // import ProjectCardsHardCoded from './Components/ProjectCards-HardCoded'
 import Socials from './Components/Socials'
 import ProjectCards from './Components/ProjectCards'
-import ContactForm from './Components/ContactForm'
+// import ContactForm from './Components/ContactForm'
 import BuildingInPublic from './Components/BuildingInPublic'
 // import data from './data.js'
 // import Projects from './Components/testProjectCards'
 // import Card from './Components/ProjectCards'
 
-import ItemListComponent from './Components/ProjectCardsTest'
+// import ItemListComponent from './Components/ProjectCardsTest'
 
 
 // function App() {
@@ -37,11 +37,13 @@ import ItemListComponent from './Components/ProjectCardsTest'
 
 function App() {
   return (
-      <div className="container">
-        <BuildingInPublic/>
+      <div className="app-container">
+        
         <Socials/>
+        <BuildingInPublic/>
         <Hero/>
         <StackAndTools/>
+        <h2 className='h2--border-bottom-orange'>Projects</h2>
         <ProjectCards />
         {/* <ItemListComponent /> */}
         {/* <ContactForm/> */}

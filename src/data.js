@@ -2,7 +2,7 @@ export default [
     {
         id: 0,
         name: "Yarn Help!",
-        about: "Helps knitters and crocheters with math including.",
+        about: "Helps knitters and crocheters with math including knowing how many balls of yarn to buy. Currently in developement: Text to Binary to Knitting Stitche, PWA: Progressive Web App, Doctor Who Scarf pattern generator, Yarn list from Ravely.com/API which is the start of yardage search functionality.",
         problem: "Every ball of yarn has a different length, and there are with 8+ different standard thicknesses (“weights”). There are over 250,000 different yarns. Crochet uses 25% more yarn than knitting. How many balls of X yarn does a person have to buy to make Y project if they are knitting or if they are crocheting?",
         stack: "html, css, javascript, Ravely.com API",
         tools: "vscode, git, github, notion, obsidian",
@@ -24,7 +24,7 @@ export default [
     },
     {
         name: "Ginger Kiwi Blog",
-        about: "JAMStack blog dev on Netlify using 11ty, Numjucks, and Markdown and YAML in Obsidian",
+        about: "JAMStack blog in CI/CD on Netlify using 11ty, Numjucks, Markdown and YAML in Obsidian. Currently going through a second redesign including theme options and adjusting semantic heading levels.", 
         problem: "I needed a single place where I had complete control over how my article writing is rendered and published.",
         stack: "HTML, CSS, javascript, Prism.js, 11ty",
         tools: "vscode, git, github",
@@ -70,7 +70,7 @@ export default [
     },
     {
         id: 5,
-        name: "UX/UI Design: Pūhoro STEM Academy Student and Teacher Dashboards",
+        name: "UX/UI Design: Pūhoro STEM Academy Student and Teacher Dashboards - Bilingual Te Reo Māori/English",
         about: "Major project from UX Design grad course.",
         problem: "Pouako STEM Academy needed to make their onsite bilingual te reo Māori/English activities accessible to classes all over New Zealand. Our group of five chose one activity to design a student and teacher dashboard for. The project required knowledge of Māori culture and language. We worked remotely, spread over three countries, and three time zones during the pandemic. During the project time group members experienced two natural disasters, one member's toddler being admitted to hospital, another member having a major injury, and someone else moving internationally back to New Zealand and being in long-term quaratine. I was the lead on the visualization part of the project and taught myself and another group member Adobe Xd. We finished on time and earned an A- grade.",
         stack: "Adobe Xd",
