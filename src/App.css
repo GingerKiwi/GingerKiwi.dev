@@ -116,16 +116,10 @@ ul {
   font-size: 1.5rem;
 }
 
-.temp--padding-top-bottom-2rem {
+/* .temp--padding-top-bottom-2rem {
   padding: 2rem 0;
-  /* This is a temporary class to help visualize things while working on the functionality. */
+  This is a temporary class to help visualize things while working on the functionality.
 }
-
-@media (min-width: 600px) {
-  .container {
-    min-width: 600px;
-  }
-
   .section--projects{
     display: flex;
     justify-content: space-between;
@@ -136,5 +130,5 @@ ul {
 
   header img {
     max-width: 25vh;
-  }
-}
+  } 
+  */
