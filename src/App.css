@@ -47,6 +47,25 @@ footer {
   background-color: var(--clr-grey-dark);
 }
 
+a, a:visited {
+  color: var(--clr-gk-accent-pink);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 0.28rem solid var(--clr-gk-accent-pink);
+  line-height: 2.5rem;
+}
+
+a:focus, a:hover {
+  color: var(--clr-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 0.28rem solid var(--clr-white);
+  line-height: 2.5rem;
+  background-color: var(--clr-gk-accent-pink);
+  transform: scale(2.1);
+  transition: all 2s ease-in-out;
+}
+
 ul {
   list-style: none;
   text-align: left;
@@ -57,6 +76,10 @@ ul {
   max-width: 375px;
   margin: 0 auto;
   padding-left: 2.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .section--socials {
@@ -81,17 +104,26 @@ ul {
   padding-top: 2rem;
 }
 
+.parent-element {
+  margin: 0 auto;
+  /* grid-column: 1;
+  grid-row: 5 / span 1; */
+}
+
 /* UTILITY CLASSES */
 
 .text--align-center {
   text-align: center;
 }
 
-.text--border-bottom-orange {
-  /* border-bottom: 1px solid var(--clr-gk-accent-orange); */
-  text-decoration: underline 2px var(--clr-gk-accent-orange);
+.h2--border-bottom-orange:after {
+  content: ""; 
+  display: block; 
+  margin: 0 auto; /* This will center the border. */
+  width: 40%; 
+  padding: 0 0 .25rem 0; /* This creates some space between the element and the border. */
+  border-bottom: 0.28rem solid var(--clr-gk-accent-orange); /* This creates the border. Replace black with whatever color you want. */
 }
-
 .text--pink {
   color: var(--clr-gk-accent-pink);
 }
@@ -116,19 +148,24 @@ ul {
   font-size: 1.5rem;
 }
 
-@container (min-width: 60ch) {
-  container-type: inline-size;
-  article {
-    padding: 2rem;
-    font-size: 1.25rem;
-  }
+.responsive-two-columns {
+  display: grid;
+}
+
+.responsive-two-columns > * {
+  width: 100%;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {
   .app-container {
-    max-width: 768px;
+    min-width: 768px;
     position: relative;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, 1fr);
+    /* border: 1px solid var(--clr-gk-accent-orange); */
   }
 
   header {
@@ -152,23 +189,49 @@ ul {
     justify-content: left;
     text-align: left;
   }
-}
-  
-
-
-/* .temp--padding-top-bottom-2rem {
-  padding: 2rem 0;
-  This is a temporary class to help visualize things while working on the functionality.
-}
-  .section--projects{
-    display: flex;
-    justify-content: space-between;
-  }
-  .section--projects img {
-    max-width: 25vw;
+  .header-text h1 {
+    font-size: 2.75rem;
   }
 
-  header img {
-    max-width: 25vh;
-  } 
-  */
+  .responsive-two-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    /* border: 1px solid var(--clr-white); */
+}
+
+  .section--stack-and-tools {
+    padding: 1.25rem 0;
+  }
+  .container--stack-and-tools {
+    /* border: 1px solid var(--clr-gk-accent-pink); */
+     
+  }
+  .container--stack-and-tools > p {
+    max-width: 41rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .app-container {
+    min-width: 900px;
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, 1fr);
+    /* border: 1px solid var(--clr-gk-accent-orange); */
+  }
+
+  .responsive-two-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    /* border: 1px solid var(--clr-white); */
+}
+}
+
+.temp--padding-top-bottom-1-25rem {
+  padding: 1.25rem 0;
+  /* This is a temporary class to help visualize things while working on the functionality. */
+}

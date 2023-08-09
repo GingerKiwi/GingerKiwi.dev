@@ -38,10 +38,12 @@ import BuildingInPublic from './Components/BuildingInPublic'
 function App() {
   return (
       <div className="app-container">
-        <BuildingInPublic/>
+        
         <Socials/>
+        <BuildingInPublic/>
         <Hero/>
         <StackAndTools/>
+        <h2 className='h2--border-bottom-orange'>Projects</h2>
         <ProjectCards />
         {/* <ItemListComponent /> */}
         {/* <ContactForm/> */}

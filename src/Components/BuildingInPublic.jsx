@@ -1,14 +1,15 @@
 const BuildingInPublic = () => {
     return (
-        <section className="section--building-in-public">
+        <section className="section--building-in-public parent-element">
             <h2>This mobile first site is being built in public</h2>
             <p>It is a work in progress!</p>
-            <ul>
-                <li>- Lack of whitespace and other css/design issues will be fixed.</li>
-                <li>- Clean up unused/commented out code.</li>
-                <li>- Additional graphics will be added from Frontend Mentor Figma.</li>
-                <li>- Accessible contact form to be added.</li>
-                <li>- Tablet and desktop layouts.</li>
+            <ul> In development:
+                <li>* Tablet and desktop layouts: Aug 08, 2023 - final tweaks.</li>
+                <li>* Clean up unused/commented out code.</li>
+                <li>* Additional graphics will be added from Figma.</li>
+                <li>* Implement interactivity such as hover on links. </li>
+                <li>* Accessible contact form to be added.</li>
+                <li>* Add better screenshots for projects.</li>
             </ul>
         </section>
     )
