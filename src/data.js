@@ -19,7 +19,7 @@ export default [
         stack: "html, css, javascript, react",
         tools: "vscode, git, github, vercel, github pages, notion",
         github: "https://github.com/The-Alice-In-Wonderland-Project",
-        link:"https://the-alice-in-wonderland-project.github.io/aliceproject-dev/",
+        link:"https:/aliceproject.dev",
         image: "Alice-Screenshot.png",
     },
     {
