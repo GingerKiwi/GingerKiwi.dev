@@ -64,8 +64,8 @@ export default [
         stack: "C#, .NET",
         tools: "Visual Studio, MS Word",
         github: "https://github.com/GingerKiwi/conquering-responsive-layouts",
-        link:"https://responsive-layouts-21-day-challenge.netlify.app/",
-        image: "c-sharp-design-patterns-cover.png" ,
+        link:"https://csharppatterns.dev/",
+        image: "https://github.com/Kpackt/Real-World-Implementation-of-C-Design-Patterns" ,
         alt: "alt text here CRL"
     },
     {
