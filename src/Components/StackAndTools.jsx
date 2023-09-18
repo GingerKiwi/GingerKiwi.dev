@@ -1,7 +1,12 @@
+// import oval from '../assets/Oval-pink.svg'
+
 const StackAndTools = () => {
     return (
         <section className="section--stack-and-tools section--padding-top parent-element">
+            {/* <img  src={oval} alt="pink half circle graphic" /> */}
             <div className="container container--stack-and-tools">
+                {/* <div  style={{ backgroundImage:`url(${oval})`,backgroundRepeat:"no-repeat"}}></div> */}
+            
             <h2 className="h2--border-bottom-orange padding-top-1rem">My Stack</h2>
             <p className="text--align-center text--uppercase">html, css, javascript, react, markdown, 11ty, Charka UI<br></br> Refreshing & Updating: C#.NET 7.0, SQL</p>
 
