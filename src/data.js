@@ -30,7 +30,7 @@ export default [
         tools: "vscode, git, github",
         github: "https://github.com/GingerKiwi/gingerkiwi-blog-2023",
         link:"https://gingerkiwi.blog",
-        image: "GK-Blog-Screenshot.png",
+        image: "gk-blog-0923-screenshot.png",
     },
     {
         id: 2,
@@ -41,7 +41,7 @@ export default [
         tools: "vscode, git, github",
         github: "https://github.com/GingerKiwi/GingerKiwi.dev",
         link:"https://gingerkiwi.dev",
-        image: "Gk-Dev-Screenshot-Figma.png",
+        image: "gk-dev-screenshot.png",
         alt: "alt text here GK.dev"
     },
     // {
