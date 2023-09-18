@@ -14,9 +14,9 @@ export default [
     {
         id: 1,
         name: "The Alice in Wonderland Project",
-        about: "Open source project to help devs learn GitHub workflows by building a text-based game inspired by Tim Burton's Alice in Wonderland movie. It will be a bit like The Oregon Trail text based game circa 1980s/1990s.",
+        about: "Open source project to help devs learn GitHub workflows by building a text-based game inspired by Tim Burton's Alice in Wonderland movie. It will be a like The Oregon Trail text based game circa 1980s/1990s.",
         problem: "Learning GitHub and getting involved in Open Source Software can be overwhelming and intimidating. So during Hacktoberfest 2022, I created an open source repo to help other new developers learn GitHub work flows, learn how to contribute to a remote team project, get involved with open source while being social and making something fun. Version 2.0 is in development for Hacktoberfest 2023.",
-        stack: "html, css, javascript, react",
+        stack: "html, css, javascript, react, charka ui",
         tools: "vscode, git, github, vercel, github pages, notion",
         github: "https://github.com/The-Alice-In-Wonderland-Project",
         link:"https:/aliceproject.dev",
