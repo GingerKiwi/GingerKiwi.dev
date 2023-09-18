@@ -11,8 +11,8 @@ const ProjectCards = () => {
                 <p>{item.about}</p>
                 <p className="text--uppercase padding-top-1rem">Stack: {item.stack}</p>
                 <p className="text--uppercase">Tools: {item.tools}</p>
-                <a href={item.link} className="text--border-bottom-orange padding-top-1rem" target="_blank" rel="noreferrer">View Site</a><br></br>
-                <a href={item.github} className="text--border-bottom-orange" target="_blank" rel="noreferrer">GitHub</a>
+                <a href={item.link} className="text--border-bottom-orange padding-top-1rem link--project" target="_blank" rel="noreferrer">View Site</a><br></br>
+                <a href={item.github} className="text--border-bottom-orange link--project" target="_blank" rel="noreferrer">GitHub</a>
                 <details className='padding-top-1rem'><summary>Problem Solved:</summary><p>{item.problem}</p> </details>
             </article>
         </div>

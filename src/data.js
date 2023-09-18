@@ -20,7 +20,7 @@ export default [
         tools: "vscode, git, github, vercel, github pages, notion",
         github: "https://github.com/The-Alice-In-Wonderland-Project",
         link:"https:/aliceproject.dev",
-        image: "Alice-Screenshot.png",
+        image: "alice-dev-2-screenshot.png",
     },
     {
         name: "Ginger Kiwi Blog",
@@ -44,18 +44,18 @@ export default [
         image: "Gk-Dev-Screenshot-Figma.png",
         alt: "alt text here GK.dev"
     },
-    {
-        id: 3,
-        name: "Conquring Responsive Layouts",
-        about: "My work from Kevin Powell's Conquering Responsive Layouts 21 Day Challenge deployed as a multipage site using Prism.js to display code blocks.",
-        problem: "I want a single place to track and share my progress in this course. Many devs have issues with layout, so this is another resource.",
-        stack: "HTML, CSS, javascript, Prism.js",
-        tools: "vscode, git, github",
-        github: "https://github.com/GingerKiwi/conquering-responsive-layouts",
-        link:"https://responsive-layouts-21-day-challenge.netlify.app/",
-        image: "CRL-Screenshot.png" ,
-        alt: "alt text here CRL"
-    },
+    // {
+    //     id: 3,
+    //     name: "Conquring Responsive Layouts",
+    //     about: "My work from Kevin Powell's Conquering Responsive Layouts 21 Day Challenge deployed as a multipage site using Prism.js to display code blocks.",
+    //     problem: "I want a single place to track and share my progress in this course. Many devs have issues with layout, so this is another resource.",
+    //     stack: "HTML, CSS, javascript, Prism.js",
+    //     tools: "vscode, git, github",
+    //     github: "https://github.com/GingerKiwi/conquering-responsive-layouts",
+    //     link:"https://responsive-layouts-21-day-challenge.netlify.app/",
+    //     image: "CRL-Screenshot.png" ,
+    //     alt: "alt text here CRL"
+    // },
     {
         id: 4,
         name: "Technical Reviewer: C# Design Patterns",
@@ -63,9 +63,9 @@ export default [
         problem: "The author, Bruce Van Horne II, and the publisher needed a technical reviewer with a new developer perspective for Real World Implementation of C# Design Patterns.",
         stack: "C#, .NET",
         tools: "Visual Studio, MS Word",
-        github: "https://github.com/GingerKiwi/conquering-responsive-layouts",
+        github: "https://github.com/Kpackt/Real-World-Implementation-of-C-Design-Patterns",
         link:"https://csharppatterns.dev/",
-        image: "https://github.com/Kpackt/Real-World-Implementation-of-C-Design-Patterns" ,
+        image: "c-sharp-design-patterns-cover.png" ,
         alt: "alt text here CRL"
     },
     {

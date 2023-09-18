@@ -3,13 +3,13 @@ const StackAndTools = () => {
         <section className="section--stack-and-tools section--padding-top parent-element">
             <div className="container container--stack-and-tools">
             <h2 className="h2--border-bottom-orange padding-top-1rem">My Stack</h2>
-            <p className="text--align-center text--uppercase">html, css, javascript, react, markdown, 11ty, <br></br> Refreshing & Updating: C#.NET 7.0, SQL</p>
+            <p className="text--align-center text--uppercase">html, css, javascript, react, markdown, 11ty, Charka UI<br></br> Refreshing & Updating: C#.NET 7.0, SQL</p>
 
             <h2 className="h2--border-bottom-orange padding-top-1rem">My Tools</h2>
-            <p className="text--align-center text--uppercase">vs code, obsidian, notion, git, github, figma, <br></br>postman, netlify, slack, discord</p>
+            <p className="text--align-center text--uppercase">vs code, obsidian, notion, git, github, figma, jest.js<br></br>postman, netlify, vercel, slack, discord</p>
 
             <h2 className="h2--border-bottom-orange padding-top-1rem">Exploring</h2>
-            <p className="text--align-center text--uppercase">ibm cobol for vscode <br></br>typescript, firebase, <br></br>azure data studio, MS SQL Server, <br></br>tailwind css, jira, </p>
+            <p className="text--align-center text--uppercase">ibm cobol for vscode <br></br>typescript, firebase, Material UI<br></br>azure data studio, Docker,<br></br>tailwind css, jira, </p>
 
             {/* <h2 className="h2--border-bottom-orange padding-top-1rem">Updating and Refreshing</h2>
             <p className="text--align-center text--uppercase">C#.NET 7.0, SQL </p> */}
