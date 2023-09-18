@@ -3,9 +3,7 @@ import avatar from '../assets/avatar.png'
 
 const Hero = () => {
     return (
-      <header className='parent-element'>
-        
-        
+      <header className='parent-element hero'>
         <img className="img-hero"  src={avatar} alt="graphic of a redhead woman with a ponytail behind a laptop computer" />
         <div className="header-text">
         {/* <div className="header-text" style={{ backgroundImage:`url(${bgimage26})`,backgroundRepeat:"no-repeat"}}> */}
